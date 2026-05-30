@@ -51,11 +51,11 @@ Results: Check ./data/results/ for your formatted Excel reports.
 
 # Project Structure
 agent.py: The core logic, AI agent, and Flask dashboard.
-data/: (Created on first run)
-inbox/: Place raw data here.
-results/: Completed Excel reports.
-processed/: Archive of analyzed files.
-failed/: Error logs and files that couldn't be processed.
+  data/: (Created on first run)
+    inbox/: Place raw data here.
+    results/: Completed Excel reports.
+    processed/: Archive of analyzed files.
+    failed/: Error logs and files that couldn't be processed.
 logs/: Internal agent logs.
 
 # Tech Stack
