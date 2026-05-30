@@ -44,27 +44,30 @@ python agent.py
 ```
 Access the dashboard at: http://localhost:5050
 
-# How to Use
-Analysis: Drop any supported data file into the ./data/inbox/ folder. The agent will detect it instantly.
-Generation: Navigate to the Dataset Generator tab on the dashboard to build new data from scratch.
-Results: Check ./data/results/ for your formatted Excel reports.
+## How to Use
 
-# Project Structure
-agent.py: The core logic, AI agent, and Flask dashboard.
-  data/: (Created on first run)
-    inbox/: Place raw data here.
-    results/: Completed Excel reports.
-    processed/: Archive of analyzed files.
-    failed/: Error logs and files that couldn't be processed.
-logs/: Internal agent logs.
+- **Analysis**: Drop any supported data file into the ./data/inbox/ folder. The agent will detect it instantly.
+- **Generation**: Navigate to the Dataset Generator tab on the dashboard to build new data from scratch.
+- **Results**: Check ./data/results/ for your formatted Excel reports and visualizations.
 
-# Tech Stack
-LLM: Llama 3.1 70B (via NVIDIA NIM)
-Backend: Python, Flask, Socket.IO
-Data: Pandas, Numpy, Scipy
-Visualization: Matplotlib, Seaborn
-Excel: OpenPyXL
+## Project Structure
+
+- **agent.py**: The core logic, AI agent, and Flask dashboard.
+- **data/**: (Created on first run)
+  - **inbox/**: Place raw data here.
+  - **results/**: Completed Excel reports.
+  - **processed/**: Archive of analyzed files.
+  - **failed/**: Error logs and files that couldn't be processed.
+- **logs/**: Internal agent logs.
+
+## Tech Stack
+
+- **LLM**: Llama 3.1 70B (via NVIDIA NIM)
+- **Backend**: Python, Flask, Socket.IO
+- **Data**: Pandas, Numpy, Scipy
+- **Visualization**: Matplotlib, Seaborn
+- **Excel**: OpenPyXL
 
 # Disclaimer
 This project is an independent tool using NVIDIA NIM APIs. Use of the web scraper should comply with the Target's robots.txt and Terms of Service. Generated data is AI-produced and should be verified for critical applications.
-Developed by @Void-ShadeCoding
+-# Developed by @Void-ShadeCoding
