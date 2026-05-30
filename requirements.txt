@@ -1,0 +1,16 @@
+openai
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+openpyxl
+flask
+flask-socketio
+psutil
+watchdog
+gputil
+py-cpuinfo
+requests
+beautifulsoup4
+urllib3
