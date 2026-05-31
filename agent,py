@@ -1,40 +1,4 @@
 """
-================================================================================
-NVIDIA NIM AI Data Analysis Agent
-================================================================================
-
-SETUP INSTRUCTIONS:
--------------------
-1. Install dependencies:
-      pip install openai psutil flask flask-socketio pandas numpy matplotlib
-                  seaborn scikit-learn watchdog gputil py-cpuinfo
-
-2. Set your NVIDIA NIM API key:
-      export NIM_API_KEY="your-nvidia-nim-api-key-here"
-   Or paste it directly into CONFIG["nim_api_key"] below (not recommended).
-
-3. Place data files for analysis into:
-      ./data/inbox/
-   Supported formats: .csv, .json, .xlsx, .parquet, .txt, .log
-
-4. Results are written to:
-      ./data/results/
-
-5. Logs are written to:
-      ./logs/agent.log
-
-6. Start the agent (runs the agent + dashboard):
-      python agent.py
-
-7. Access the dashboard from any device on your local network:
-      http://<raspberry-pi-ip>:5050
-
-8. To find your device's IP:
-      hostname -I
-
-9. The agent runs indefinitely. To stop it gracefully:
-      Ctrl+C  (or send SIGTERM)
-
 NOTES:
 ------
 - The agent polls ./data/inbox/ every CONFIG["poll_interval_seconds"] seconds.
@@ -47,7 +11,7 @@ NOTES:
 
 ================================================================================
 
-THIS TOOL IS INTENDED FOR USE ON A RASPBERRY PI 5
+THIS TOOL WAS TESTED AND INTENDED FOR USE ON A RASPBERRY PI 5
 
 ================================================================================
 """
